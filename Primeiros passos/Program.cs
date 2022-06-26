@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading.Tasks ;
 
 namespace Primeiros_passos
 {
@@ -29,6 +29,7 @@ namespace Primeiros_passos
             c = int.Parse(Console.ReadLine());
             Console.WriteLine("Informe abaixo sua nota do 4º Bimestre");
             d = int.Parse(Console.ReadLine());
+            Console.Clear();
 
             media = (a + b + c + d) / 4;
 
